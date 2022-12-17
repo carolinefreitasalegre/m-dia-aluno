@@ -41,14 +41,25 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#button {
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-top: 5%;
+ 
+}
+.button {
   padding: 10px;
   border-radius: 10px;
   border: none;
   box-shadow: 2px 5px 2px rgb(9, 9, 46);
   cursor: pointer;
+  height: 40px;
+  
+  
 }
-#button:hover {
+.button:hover {
   background-color: rgb(62, 62, 104);
 }
 .media {

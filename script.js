@@ -6,7 +6,7 @@ function clicar() {
 
   var media =
     (parseFloat(n01) + parseFloat(n02) + parseFloat(n03) + parseFloat(n04)) / 4;
-  document.querySelector(".media").innerHTML = media;
+  document.querySelector(".media").innerHTML = `A média do aluno foi: ${media}`;
 
   if (media > 6) {
     alert("Aprovado!");
